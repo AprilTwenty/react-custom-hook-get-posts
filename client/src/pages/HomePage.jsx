@@ -5,6 +5,7 @@ import axios from "axios";
 
 function HomePage() {
   const navigate = useNavigate();
+  
   const { posts, isError, isLoading } = useGetPost();
 
 
